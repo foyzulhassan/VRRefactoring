@@ -1,15 +1,23 @@
 # VR Refactoring
 STEP-1: Create a vitual environment using the commands ``python -m venv venv``
+
 STEP-2: Clone the repository from https://github.com/foyzulhassan/VRRefactoring.git 
+
 STEP-3: Create a folder called Project_Repo on the root directory. This will store all the cloned repositories listed in the VR_Project_List.txt file.
+
 STEP-4: configure your root directory, Project_Repo by creating them in the .env file.
+
 STEP-5: Run the clone.py script.
+
 STTEP-6: Wait until all the VR projects have been cloned into your enviroment under Project_Repo directory.
+
 STEP-7: Run the Main.py script.
-STEP-8: A file called commits_information.csv will be created and it will have all the details about the commits that have the search keyword(s). It will include the project name, commit message, commit id and commit url, respectively. 
+
+STEP-8: A file called commits_information.csv will be created and it will have all the details about the commits that have the search keyword(s). It will 
+include the project name, commit message, commit id and commit url, respectively. 
 
 
-# VR Projects
+## VR Projects
 
 This repository contains tools and scripts designed for managing and analyzing VR-related repositories. The goal of this project is to clone various VR projects, traverse their commit history, and extract relevant data based on predefined criteria. This data is to be used to get a better understanding of refactoring in VR projects and reduce technical debt in VR software development.
 
